@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,13 @@
 }
 
 body {
-    background-color: #141414;
+    background: linear-gradient(150deg, #000000, #9e00ff);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    overflow: hidden;
+    transform: scale(0.8);
 }
 
 div {
